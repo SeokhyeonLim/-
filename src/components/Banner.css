@@ -1,0 +1,31 @@
+.banner {
+    text-align: center;
+    background-image: url('/Users/imseoghyeon/Desktop/프론트엔드 강의자료/React/practice/src/components/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* 배경 이미지를 화면에 꽉 차게 표시 */
+    height: 100vh; /* 화면 높이만큼 높이 설정 */
+    margin: 0px; /* 마진을 제거하여 상단 빈 공간 제거 */
+    display: flex; /* 내부 컨텐츠 중앙 정렬을 위해 Flexbox 사용 */
+    flex-direction: column; /* 세로 방향으로 컨텐츠 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+    align-items: center; /* 수평 중앙 정렬 */
+    color: white; /* 텍스트 색상 설정 */
+}
+
+.banner h1 {
+    font-size: 3rem;
+    color : black;
+    margin: 0; /* 헤더의 기본 마진을 제거하여 꽉 차게 표시 */
+}
+
+.banner p {
+    font-size: 3rem;
+    color : black;
+    margin: 0; /* 단락의 기본 마진을 제거하여 꽉 차게 표시 */
+}
+
+.logo-image {
+    height: 100%; /* 로고 이미지 높이를 배너의 높이에 맞게 설정 */
+    width: auto; /* 너비를 자동으로 조정하여 이미지 비율 유지 */
+}

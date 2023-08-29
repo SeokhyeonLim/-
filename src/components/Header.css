@@ -1,0 +1,54 @@
+.header {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    position : fixed;
+    z-index: 1000; /* 여기서 숫자는 적절한 값으로 조정해야 합니다 */
+}
+  
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a:link,
+a:visited {
+    display: inline-block;
+    padding: 12px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    color: currentColor;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover,
+a:active {
+    background-color: #34495e; /* 변경될 배경색 */
+    color: white; /* 변경될 텍스트 색상 */
+}
+
+
+.content {
+    /* 여기에 다른 콘텐츠 스타일을 정의합니다 */
+    position: relative; /* 기본적으로 상대 위치가 설정되어야 합니다 */
+    z-index: 1; /* 헤더 미만의 값으로 설정합니다 */
+}
